@@ -24,11 +24,10 @@ Se entrega una implementación de pruebas unitarias básicas para las funcionali
 - se agrego una nueva clase llamada "CarController" la cual es equivalente a un "PlayerController"
 - Se agrego un nuevo metodo llamado Stopcoroutine
 - Se agrego una funcion de scoreText para que se pueda ver el puntaje del jugador mientras avanza
-- 
 
 
 
 ## ID
-- [x] 000000000 [Juan Guillermo](https://github.com/Alafresh)
+- [x] 000464690 [Juan Guillermo](https://github.com/Alafresh)
 - [x] 000369010 [Jhonier Mosquera](https://github.com/quertuy)
 - [x] 000467982 [Cristian Usuga](https://github.com/Cristian171)
