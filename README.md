@@ -20,10 +20,15 @@ Se entrega una implementación de pruebas unitarias básicas para las funcionali
 - implementacion de cambios en el cogido funte.
 - Se entrega una implementación de pruebas unitarias básicas.
 - Se agrego un unity package donde se encuetra el juego.
+- Se agrego una nueva clase llamada "PlataformSpawner"
+- se agrego una nueva clase llamada "CarController" la cual es equivalente a un "PlayerController"
+- Se agrego un nuevo metodo llamado Stopcoroutine
+- Se agrego una funcion de scoreText para que se pueda ver el puntaje del jugador mientras avanza
+- 
 
 
 
 ## ID
 - [x] 000000000 [Juan Guillermo](https://github.com/Alafresh)
-- [x] 000000000 [Jhonier Mosquera](https://github.com/quertuy)
+- [x] 000369010 [Jhonier Mosquera](https://github.com/quertuy)
 - [x] 000467982 [Cristian Usuga](https://github.com/Cristian171)
