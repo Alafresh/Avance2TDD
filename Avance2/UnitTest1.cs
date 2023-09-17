@@ -8,6 +8,35 @@ namespace Avance2
     public class Tests
     {
         [Test]
+        public void CheckInput_FirstInput_NoChangeDirection()
+        {
+            // Arrange
+            var characterController = new CarController();
+
+            // Act
+            characterController.CheckInput();
+
+            // Assert
+            // La primera llamada a CheckInput debe establecer firstInput en false y no llamar a ChangeDirection
+            Assert.IsFalse(characterController.firstInput);
+        }
+        [Test]
+        public void ChangeDirection_MovingLeft_ToggleDirection()
+        {
+            // Arrange
+            var characterController = new CarController();
+            characterController.movingLeft = true;
+            var initialRotation = Quaternion.Euler(0, 0, 0);
+
+            // Act
+            characterController.ChangeDirection();
+
+            // Assert
+            // Cuando movingLeft es true, ChangeDirection debe cambiarlo a false y rotar el objeto
+            Assert.IsFalse(characterController.movingLeft);
+            Assert.AreNotEqual(initialRotation, characterController.transform.rotation);
+        }
+        [Test]
         public void UpdateScore_IncreasesScoreAndUpdatesText()
         {
             // Arrange
