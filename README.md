@@ -1,5 +1,6 @@
 ## 3D raizer
-Proyecto del curso Scripting en C# de la universidad UPB de Medellin.
+Proyecto del curso Scripting en C# de la universidad UPB de Medellin. 
+Un juego 3D Utilizando el motor Gradfico[Unity](https://unity.com/es)
 
 ## Entrega #2 Parametros 
 Se entrega una implementación de pruebas unitarias básicas para las funcionalidades principales de su proyecto.
