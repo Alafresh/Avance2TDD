@@ -8,6 +8,28 @@ namespace Avance2
     public class Tests
     {
         [Test]
+        public void GeneratePosition_UpdatesNewPosCorrectly()
+        {
+            // Arrange
+            PlatformSpawner positionGenerator = new PlatformSpawner();
+            positionGenerator.lastPosition = new Vector3(1f, 0f, 2f);
+            Vector3 initialNewPos = positionGenerator.newPos;
+
+            // Act
+            positionGenerator.GeneratePosition();
+
+            // Assert
+            // Verifica que newPos se haya actualizado correctamente según las reglas de GeneratePosition
+            if (initialNewPos.x == positionGenerator.lastPosition.x)
+            {
+                Assert.AreEqual(initialNewPos.z + 2f, positionGenerator.newPos.z, 0.01f); // Verifica si z se actualizó correctamente
+            }
+            else
+            {
+                Assert.AreEqual(initialNewPos.x + 2f, positionGenerator.newPos.x, 0.01f); // Verifica si x se actualizó correctamente
+            }
+        }
+        [Test]
         public void CheckInput_FirstInput_NoChangeDirection()
         {
             // Arrange
