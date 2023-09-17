@@ -24,7 +24,7 @@ Se entrega una implementación de pruebas unitarias básicas para las funcionali
 
 
 ## ID
-[x] 000000000 [Juan Guillermo](https://github.com/Alafresh)
-[x] 000000000 [Jhonier Mosquera](https://github.com/quertuy)
-[x] 000467982 [Cristian Usuga](https://github.com/Cristian171)
+-[x] 000000000 [Juan Guillermo](https://github.com/Alafresh)
+-[x] 000000000 [Jhonier Mosquera](https://github.com/quertuy)
+-[x] 000467982 [Cristian Usuga](https://github.com/Cristian171)
 
