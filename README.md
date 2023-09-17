@@ -1,4 +1,4 @@
-## 3D raizer
+## 3D Racer
 Proyecto del curso Scripting en C# de la universidad UPB de Medellin. 
 Un juego 3D Utilizando el motor Grafico[Unity](https://unity.com/es)
 
